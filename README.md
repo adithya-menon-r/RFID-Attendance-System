@@ -55,6 +55,9 @@ RFID-Attendance-System/
 ### Attendance Log Export
 - When the export button is pressed, the system iterates through the `students` struct array and writes the details of students marked as present (status set to 1) to a text file (`data.txt`) on the virtual SD card. After successfully completing the export, a confirmation message is displayed on the LCD.
 
+## Conclusion 
+The RFID Attendance System efficiently manages attendance using Arduino and Proteus simulation. It utilizes structs for data organization, dynamic memory allocation, and structured file handling. With simulated RFID inputs and data export to a virtual SD card, it offers a compact, reliable solution for attendance management.
+
 ## License
 This project is licensed under the [MIT LICENSE](LICENSE).
 
